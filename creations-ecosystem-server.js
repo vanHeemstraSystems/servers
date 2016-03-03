@@ -25,7 +25,7 @@ var React = require('../libraries/react');
 var ReactDOM = require('react-dom/server');
 
 var Router = require('../libraries/react-router');
-var routes = require('../local_routes/creations_ecosystem_routes');
+var routes = require('../routes/creations-ecosystem-routes');
 
 var app = express();
 
