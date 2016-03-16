@@ -1,6 +1,9 @@
 # servers
 The Servers Subtree
 
+Servers are started from the subtree 'supervisors'.
+So not from within this 'servers' repository itself.
+
 TIP: To imitate a request (e.g. GET, POST, PUT) on the command line just type:
 
 ````
