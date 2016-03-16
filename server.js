@@ -16,7 +16,7 @@ var environments = require('../environments/environment.js')(app);
 * 
 * param: app
 */
-var routes = require('../routes/route.js')(app);
+var routes = require('../routes/routes.js')(app);
 /*
 * LISTENERS - The Listeners (always put last)
 * 
