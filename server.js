@@ -18,8 +18,8 @@ var app = require(path.join(paths.applications, '/application.js'));
 * 
 * param: app
 */
-//OLD var environments = require('../environments/environment.js')(app);
-var environments = require(path.join(paths.environments, '/environment.js'))(app);
+//OLD var environments = require('../environments/environments.js')(app);
+var environments = require(path.join(paths.environments, '/environments.js'))(app);
 /*
 * ROUTES - The Routes
 * 
