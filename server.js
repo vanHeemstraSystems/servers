@@ -10,7 +10,7 @@ var paths = require('../paths/paths');
 /*
 * APPLICATIONS - The Applications
 */
-var app = require(path.join(paths.applications, '/application.js'));
+var app = require(path.join(paths.applications, '/application.js'))();
 /*
 * ENVIRONMENTS - The Environments
 * 
