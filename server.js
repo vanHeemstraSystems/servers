@@ -32,5 +32,5 @@ var routes = require(path.join(paths.routes, '/routes.js'))(app);
 * 
 * param: app
 */
-//OLD var listeners = require('../listeners/listener.js')(app);
-var listeners = require(path.join(paths.listeners, '/listener.js'))(app);
+//OLD var listeners = require('../listeners/listeners.js')(app);
+var listeners = require(path.join(paths.listeners, '/listeners.js'))(app);
