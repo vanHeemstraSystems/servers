@@ -1,15 +1,12 @@
 /*
 * SERVER - The Server
 */
-
 'use strict'
-
 /*
 * PATH & PATHS - The Path(s): needs to be at the top
 */
 var path = require('../libraries/path');
 var paths = require('../paths/paths');
-
 /*
 * APPLICATIONS - The Applications
 */
